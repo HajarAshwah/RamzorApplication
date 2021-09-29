@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Switch
+        android:id="@+id/swchSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Keep Signed  In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/btnOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/tvFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finished Tasks"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Switch
+        android:id="@+id/swchKeep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep History"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <RadioGroup
+        android:layout_width="149dp"
+        android:layout_height="146dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="227dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cross Line" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Move To End" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear History"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
