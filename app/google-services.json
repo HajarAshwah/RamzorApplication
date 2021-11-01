@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204034052633",
+    "project_id": "hajartaskmanager",
+    "storage_bucket": "hajartaskmanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204034052633:android:14817d16d7c73ffd1d1088",
+        "android_client_info": {
+          "package_name": "hajar.ashwah.hajartaskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204034052633-2ukhl953q6fmeb1l93uvkql4pgjfvsr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjpGrWqGq-XfIyBnHuleQkgZbRc0KY2T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204034052633-2ukhl953q6fmeb1l93uvkql4pgjfvsr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
