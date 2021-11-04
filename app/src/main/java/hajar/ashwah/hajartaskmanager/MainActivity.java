@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
     //1.buld menu xml
     //2.to add menu (3 points right-top corner)to the current activity
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) {////////
         //                         the xml menu file
         getMenuInflater().inflate(R.menu.main_minu,menu);
         return true;
