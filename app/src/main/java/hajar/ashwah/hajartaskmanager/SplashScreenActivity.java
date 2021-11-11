@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+/**
+ * شاشة عرض اولية تعرض شاشة لمدة 3 ثواني
+ */
 public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
@@ -28,7 +31,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 }
             }
         };
-
-
+        // Thread : 4
+        th.start();
     }
 }
